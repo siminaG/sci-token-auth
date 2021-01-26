@@ -1,0 +1,19 @@
+.container-admin{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('C:/Users/Simina/Desktop/sci_frontend/sci-token-auth/src/assets/images/icon.png');
+    background-size: cover;
+  }
+
+  .navButton{
+    margin-right: 2%;
+    margin-top: 5%;
+  }

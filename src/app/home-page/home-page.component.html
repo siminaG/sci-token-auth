@@ -1,0 +1,9 @@
+<div class="container-home">
+    <h1>Home</h1>
+    <div>
+        <h2 class="home-msg">Hello, {{username}}</h2>
+        <button  class="navButton" mat-raised-button color="primary" (click)="logOut()">LogOut</button>
+        <button class="navButton" mat-raised-button color="primary" *ngIf="isAdmin()" (click)="goToAdmin()">Admin Console</button>
+    </div>
+
+</div>
